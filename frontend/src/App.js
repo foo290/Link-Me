@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return(
       <div className="Root-app">
-      <Hero/>
+      <Hero title="Nitin's" />
       <Holder profileCards={this.state.profiles} />
       </div>
     )
