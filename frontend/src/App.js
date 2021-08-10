@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 // import ProfileCard from "./components/profile_card";
 import "./css/rootApp.css";
 import Holder from "./components/holder";
@@ -23,75 +23,6 @@ class App extends Component {
   }
 
   render() {
-    let defaultProfileCards = [
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"GitHub",
-        cvr:bg,
-        subtitle: "Google",
-        bio:"foo290",
-        badge:logo,
-        url:"https://www.github.com/foo290"
-      },
-      {
-        title:"Facebook",
-        cvr:bg,
-        subtitle: "Facebook",
-        bio:"Nitin Sharma",
-        badge:logo
-      }
-    ]
-
-    console.log(this.state.profiles)
-
-
     return(
       <div className="Root-app">
       <Hero/>
