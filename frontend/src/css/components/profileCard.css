@@ -1,13 +1,13 @@
 .Profile-card {
     /* Height and width */
-    width: 300px;
+    width: 350px;
     min-height: 300px;
     height: fit-content;
     /* border */
     border: 1px solid rgb(204, 204, 204);
     border-radius: 8px;
     /* margins */
-    overflow: auto;
+    overflow: hidden;
     margin: 10px;
     /* UI UX */
     background-color: white;
@@ -33,7 +33,7 @@
 }
 
 .Profile-card img {
-    width: 300px;
+    width: 350px;
     height: 200px;
     margin: 0px;
     border-top-left-radius: 8px;

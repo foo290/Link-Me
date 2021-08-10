@@ -5,8 +5,8 @@
   "main": "null",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startb": "nodemon ./backend/server.js",
-    "startf": "cd ./frontend && npm start"
+    "be": "nodemon ./backend/server.js",
+    "fe": "cd ./frontend && npm start"
   },
   "author": "Nitin Sharma",
   "license": "ISC"
