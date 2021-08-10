@@ -1,0 +1,19 @@
+.Badge-container{
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 100px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    float: right;
+    /* overflow-x: unset; */
+}
+
+.Badge-container img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    cursor: cell;
+}

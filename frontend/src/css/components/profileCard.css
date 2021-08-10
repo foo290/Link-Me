@@ -1,0 +1,79 @@
+.Profile-card {
+    /* Height and width */
+    width: 300px;
+    min-height: 300px;
+    height: fit-content;
+    /* border */
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    /* margins */
+    overflow: auto;
+    margin: 10px;
+    /* UI UX */
+    background-color: white;
+    transition-duration: 300ms;
+    cursor: pointer;
+
+}
+
+.Profile-card:hover {
+    box-shadow: rgba(189, 189, 189, 0.657) 0px 8px 24px;
+    transform: translateY(-2px);
+    transition-duration: 300ms;
+}
+
+.Profile-card a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Profile-card:active{
+    transition-duration: 100ms;
+    transform: translateY(10px);
+}
+
+.Profile-card img {
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+}
+
+.Profile-card hr{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 120, from(#000), to(#fff));
+}
+
+
+.Profile-card h1, h3 {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    color: rgb(80, 80, 80);
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.Profile-card h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(160, 160, 160);
+}
+
+.Profile-card p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-justify: distribute;
+    word-wrap: break-word;
+    font-family: 'Quicksand', sans-serif;
+}

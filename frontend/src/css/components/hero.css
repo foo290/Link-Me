@@ -1,0 +1,40 @@
+.Hero-bg{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.Hero{
+    width: 100%;
+    /* min-height: 100px; */
+    height: fit-content;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,63,0.9928726024841994) 100%, rgba(0,212,255,1) 100%);
+    overflow: auto;
+
+    /* background-color: rgb(233, 233, 233); */
+}
+
+.Hero-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.Hero hr{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 450, from(#000), to(#fff));
+}
+
+.Hero h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}

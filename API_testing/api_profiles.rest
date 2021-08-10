@@ -1,0 +1,27 @@
+# Get all Profiles
+GET http://127.0.0.1:8000/tree
+
+###
+
+# Create new profile
+POST http://127.0.0.1:8000/tree/create
+Content-Type: application/json
+
+{
+    "title": "@_foo290",
+    "subtitle": "Twitter",
+    "bio": "Pythonista 🐍",
+    "url": "https://twitter.com/_foo290",
+    "cvr":"https://twitter.com/_foo290/photo",
+    "badge": "https://camo.githubusercontent.com/395dda360ae28377b7c3247581a88b20573883519c2be833cb64fbb37dcbcc1a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e734076332f69636f6e732f747769747465722e737667"
+}
+
+###
+
+# Patch new profile
+PATCH http://127.0.0.1:8000/tree/update/61113be6323918663889b182
+Content-Type: application/json
+
+{
+    "cvr": "https://pbs.twimg.com/profile_images/1421543959004782593/iL4BJ8wL_400x400.jpg"
+}
