@@ -2,24 +2,24 @@
     /* Height and width */
     /* width: 50%; */
     /* min-height: 60%; */
-    height: fit-content;
+    /* height: fit-content; */
     background-color: rgba(255, 255, 255, 1);
     /* border */
     border-radius: 8px;
     /* margins */
-    display: flex;
-    justify-content: flex-start;
-    align-content: space-between;
-    flex-flow: wrap;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-content: space-between; */
+    /* flex-flow: wrap; */
 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 
-    overflow: auto;
+    /* overflow: auto; */
     /* margin: auto; */
-    margin-top: 80px;
+     margin-top: 80px;
     margin-bottom: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
     padding: 20px;
     /* position: absolute; */
     /* UX */

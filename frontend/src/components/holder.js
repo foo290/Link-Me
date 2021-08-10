@@ -7,12 +7,14 @@ function Holder(props){
     let profileCards = props.profileCards
 
     const cards = profileCards.map(pcard => {
-        return <ProfileCard pcard={pcard}/>
+        return <div className={`${'col'}`}><ProfileCard pcard={pcard}/></div>
     })
 
     return (
-        <div className="Holder">
-            {cards}
+        <div className={`${'container'}  Holder`}>
+            <div className={`${'row'}`}>
+                {cards}
+            </div>
         </div>
     )
 }

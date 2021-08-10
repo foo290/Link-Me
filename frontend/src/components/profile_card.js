@@ -1,26 +1,27 @@
 import React from 'react'
-import bits from '../media/components/bits.jpg'
+import defaultcvr from '../media/components/ww.jpg'
 import '../css/components/profileCard.css'
 import Badges from './badges'
 
 function ProfileCard({ pcard }){
     console.log(pcard.cvr)
-    pcard.cvr = pcard.cvr? pcard.cvr: bits
+    pcard.cvr = pcard.cvr? pcard.cvr: defaultcvr
+    pcard.bio = pcard.bio? pcard.bio: "Click to explore..."
     return (
-        <a style={{textDecoration: 'none', color:'inherit'}} href={pcard.url} target='_blank' rel="noreferrer">
-            <div className="Profile-card">
-                <img src={pcard.cvr} alt="img"></img>
+        <div className={'Profile-card'}>
+            <a href={pcard.url} rel={'noreferrer'} target={'_blank'}>
+            <div className={`${'card'}`} style={{width: "18rem;"}}>
+                <img src={pcard.cvr} className={"card-img-top"} alt={"..."}/>
                 <hr/>
-
-                <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <h1>{pcard.title}</h1>
-                    <Badges badge={pcard.badge}/>
+                <div className={'row'}>
+                    <div className={'col'}><h1>{pcard.title}</h1></div>
+                    <div className={'col'}><Badges badge={pcard.badge}/></div>
+                    <h4>{pcard.subtitle}</h4>
                 </div>
-                <h3>{pcard.subtitle}</h3>
                 <p>{pcard.bio}</p>
-            </div>       
-        </a>
-
+            </div>
+            </a>
+        </div>
     )
 }
 
