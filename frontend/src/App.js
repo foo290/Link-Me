@@ -2,9 +2,7 @@ import React, { Component } from "react";
 // import ProfileCard from "./components/profile_card";
 import "./css/rootApp.css";
 import Holder from "./components/holder";
-import bg from './media/components/ww.jpg'
 import Hero from "./components/hero";
-import logo from './media/components/google.png'
 import axios from 'axios'
 
 class App extends Component {
