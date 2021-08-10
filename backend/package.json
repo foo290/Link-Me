@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the backend api server",
   "main": "server.js",
   "engines": {
     "node": "14.x"
