@@ -1,8 +1,8 @@
 {
-    "version": 2,
-    "builds": [
+    "rewrites": [
         {
-            "src": "server.js",
+            "source": "/tree/(.*)", 
+            "destination": "/tree" 
         }
     ]
 }
