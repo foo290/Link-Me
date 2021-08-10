@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "be": "nodemon ./backend/server.js",
-    "fe": "cd ./frontend && npm start"
+    "fe": "cd ./frontend && npm start",
+    "bnrf": "cd ./frontend && npm run build && serve -s build"
   },
   "author": "Nitin Sharma",
   "license": "ISC"

@@ -3,7 +3,8 @@ import '../css/components/holder.css'
 import ProfileCard from './profile_card';
 
 function Holder(props){
-    let profileCards = props.profileCards? props.profileCards: [] 
+    // console.log(props.profileCards)
+    const profileCards = props.profileCards? props.profileCards: [] 
 
     const cards = profileCards.map(pcard => {
         return <div className={`${'col'}`}><ProfileCard pcard={pcard}/></div>

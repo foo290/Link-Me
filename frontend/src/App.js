@@ -14,7 +14,8 @@ class App extends Component {
   }
   componentDidMount(){
     axios.get('/tree').then( response =>{
-      this.setState({profiles: response.data})
+      if (response.data instanceof Array)
+        this.setState({profiles: response.data})
     })
   }
 
