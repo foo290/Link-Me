@@ -14,8 +14,6 @@ class App extends Component {
   }
   componentDidMount(){
     axios.get('/tree').then( response =>{
-      console.log("sending req")
-      console.log(response.data)
       this.setState({profiles: response.data})
     })
   }
