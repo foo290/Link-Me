@@ -33,6 +33,54 @@ class App extends Component {
         url:"https://www.github.com/foo290"
       },
       {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
+        title:"GitHub",
+        cvr:bg,
+        subtitle: "Google",
+        bio:"foo290",
+        badge:logo,
+        url:"https://www.github.com/foo290"
+      },
+      {
         title:"Facebook",
         cvr:bg,
         subtitle: "Facebook",

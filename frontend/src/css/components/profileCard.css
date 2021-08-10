@@ -1,24 +1,30 @@
 .Profile-card {
     /* Height and width */
-    width: 350px;
-    min-height: 300px;
+    max-width: 350px;
+    /* min-width: 100px; */
+    /* min-height: 300px; */
     height: fit-content;
     /* border */
     border: 1px solid rgb(204, 204, 204);
     border-radius: 8px;
     /* margins */
     overflow: hidden;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
     /* UI UX */
     background-color: white;
     transition-duration: 300ms;
     cursor: pointer;
+    padding: 0px;
 
 }
 
 .Profile-card:hover {
-    box-shadow: rgba(189, 189, 189, 0.657) 0px 8px 24px;
-    transform: translateY(-2px);
+    /* box-shadow: rgba(189, 189, 189, 0.657) 0px 8px 24px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    transform: translateY(-5px);
     transition-duration: 300ms;
 }
 
@@ -45,9 +51,12 @@
     display:block;
     border:none;
     color:white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
     height:1px;
     background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 120, from(#000), to(#fff));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 150, from(#000), to(#fff));
 }
 
 
@@ -62,18 +71,22 @@
     /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-.Profile-card h3 {
+.Profile-card h4 {
     font-weight: 500;
+    font-size: larger;
     margin-bottom: 10px;
+    margin-left: 10px;
     color: rgb(160, 160, 160);
 }
 
 .Profile-card p {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
     text-justify: distribute;
     word-wrap: break-word;
+    font-weight: 550;
+    font-size: large;
     font-family: 'Quicksand', sans-serif;
 }
