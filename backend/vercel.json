@@ -3,7 +3,6 @@
     "builds": [
         {
             "src": "server.js",
-            "user": "@now/node-server"
         }
     ]
 }
