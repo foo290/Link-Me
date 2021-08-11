@@ -6,8 +6,7 @@ function Hero(props){
     return (
         <div className="Hero">
             <div className="Hero-content">
-                <h1>{title} Link Tree</h1>
-                {/* <hr/>  */}
+                <h1>{title} Links</h1>
             </div>
         </div>
         

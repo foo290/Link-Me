@@ -13,16 +13,18 @@ class App extends Component {
     }
   }
   componentDidMount(){
-    axios.get('/tree').then( response =>{
+    axios.get('https://link-me-apiserver.vercel.app/api/cards').then( response =>{
       if (response.data instanceof Array)
         this.setState({profiles: response.data})
+      else console.log("api not found")
+      console.log(response.data)
     })
   }
 
   render() {
     return(
       <div className="Root-app">
-      <Hero/>
+      <Hero title="Nitin's" />
       <Holder profileCards={this.state.profiles} />
       </div>
     )
