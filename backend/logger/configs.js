@@ -38,7 +38,7 @@ LOG_CLR = {
 
 FILE_CONFIGS = {
     makeSeparateLogFiles: false,
-    makeCombinedLogFiles: true,
+    makeCombinedLogFiles: false,
 
     path: "./",
     folder: "Logs",
