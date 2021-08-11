@@ -42,7 +42,7 @@ FILE_CONFIGS = {
 
     path: "./",
     folder: "Logs",
-    fileName: "combinedLogs.log"
+    fileName: "logs.log"
 }
 
 
