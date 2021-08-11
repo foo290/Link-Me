@@ -53,6 +53,7 @@ app.use('/api/auth', loginSys)
 
 
 
-app.listen(8000, ()=>{
+const port = process.env.PORT || 3000
+app.listen(port, ()=>{
     print.info('Server started...')
 })
