@@ -13,9 +13,11 @@ class App extends Component {
     }
   }
   componentDidMount(){
-    axios.get('/api/cards').then( response =>{
+    axios.get('https://link-me-apiserver.vercel.app/api/cards').then( response =>{
       if (response.data instanceof Array)
         this.setState({profiles: response.data})
+      else console.log("api not found")
+      console.log(response.data)
     })
   }
 
