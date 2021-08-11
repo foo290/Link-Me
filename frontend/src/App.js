@@ -13,7 +13,7 @@ class App extends Component {
     }
   }
   componentDidMount(){
-    axios.get('/tree').then( response =>{
+    axios.get('/api/cards').then( response =>{
       if (response.data instanceof Array)
         this.setState({profiles: response.data})
     })
