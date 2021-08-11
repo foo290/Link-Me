@@ -34,6 +34,6 @@ app.use('/tree', profileRouter)
 
 
 
-app.listen(process.env.EXPRESS_PORT, ()=>{
+app.listen(8000, ()=>{
     console.log(`Server started on port ${process.env.EXPRESS_PORT}...`)
 })
