@@ -1,0 +1,45 @@
+GET http://localhost:8000/api/users
+
+###
+GET http://localhost:8000/users
+
+###
+POST http://localhost:8000/api/users/create
+Content-Type: application/json
+
+{
+    "username":"newNitin",
+    "email": "SomeEmail@gmail.com",
+    "password": "boo1234"
+}
+
+###
+DELETE  http://localhost:8000/user/delete/61083b97e796a216b4aaec3f
+
+
+###
+PATCH   http://localhost:8000/user/update/610849ef48a0bf2aac3916f8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InJvbGVzIjpbXSwicGVybWlzc2lvbnMiOltdLCJpc1N1cGVyVXNlciI6ZmFsc2UsImlzQWN0aXZlIjp0cnVlLCJfaWQiOiI2MTA4NDllZjQ4YTBiZjJhYWMzOTE2ZjgiLCJ1c2VybmFtZSI6Ik5pdGluIiwiZW1haWwiOiJTb21lRW1haWxAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkb3Q5VVFzL1RrbGVnaEhtSFpiUEF6Lk9wQU54Tmp3WWxZeWlhWllTUDhmV2oyV014eDB5UG0iLCJqb2luZWREYXRlIjoiMjAyMS0wOC0wMlQxOTozOToyNy4wMTNaIiwibGFzdExvZ2luIjoiMjAyMS0wOC0wMlQxOTozOToyNy4wMTNaIiwiX192IjowfSwiaWF0IjoxNjI3OTMzNzcxfQ.fYLq4yW54egQKNyjOdGZxTZrS9sUm7QZYKslcWVIC_E
+Content-Type: application/json
+
+{
+    "username": "boombox2"
+}
+
+###
+POST http://localhost:8000/api/auth/getjwttoken
+Content-Type: application/json
+
+{
+    "username": "newNitin",
+    "password": "boo1234"
+}
+
+###
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "Nitin",
+    "password": "boo1234"
+}
